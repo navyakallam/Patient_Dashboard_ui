@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Patient Dashboard</title>
+<link rel="stylesheet" href="style.css">
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="sidebar">
+
+<h2>Dashboard</h2>
+
+<ul class="menu">
+<li>Overview</li>
+<li>Patients</li>
+<li>Schedule</li>
+<li>Messages</li>
+<li>Transactions</li>
+</ul>
+
+</div>
+
+
+<div class="main">
+
+<h1 id="patientName"></h1>
+
+<img id="profilePic" width="150">
+
+<p id="age"></p>
+<p id="gender"></p>
+
+
+<div class="cards">
+
+<div class="card">
+<h3>Heart Rate</h3>
+<p id="heartRate"></p>
+</div>
+
+<div class="card">
+<h3>Respiratory Rate</h3>
+<p id="respiratoryRate"></p>
+</div>
+
+</div>
+
+
+<h2>Blood Pressure</h2>
+
+<canvas id="bpChart"></canvas>
+
+
+<h2>Diagnostic List</h2>
+<ul id="diagnosisList"></ul>
+
+
+<h2>Lab Results</h2>
+<ul id="labs"></ul>
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
