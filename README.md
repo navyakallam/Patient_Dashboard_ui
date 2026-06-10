@@ -147,6 +147,11 @@ cd patient-dashboard
 
 ---
 
+
+## 🔗 Live Demo
+
+👉 https://navyakallam.github.io/Patient_Dashboard_ui/
+
 ## 👨‍💻 Author
 
 **Navya Kallam**
